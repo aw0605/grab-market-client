@@ -4,3 +4,41 @@ body,
 #root > div {
   height: 100%;
 }
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+/* 레이아웃 */
+#header {
+  display: flex;
+  justify-content: center;
+  height: 64px;
+  border-bottom: 1px solid gray;
+}
+#body {
+  min-height: 100vh;
+  width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+#footer {
+  height: 200px;
+  background-color: rgba(230, 230, 230);
+}
+
+/* header */
+#header_area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1024px;
+  height: 100%;
+}
+#header_area img {
+  width: 128px;
+  height: 36px;
+}
