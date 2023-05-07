@@ -1,11 +1,13 @@
 #image-box {
-  height: 300px;
+  max-height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 #image-box img {
-  height: 100%;
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
 }
 
 #profile-box {
@@ -35,6 +37,7 @@
 #price {
   font-size: 16px;
   font-weight: 600;
+  margin: 3px 0;
 }
 #createdAt {
   font-size: 12px;
@@ -42,4 +45,9 @@
 }
 #description {
   margin-top: 16px;
+  font-size: 16px;
+}
+
+#purchase-button {
+  margin: 10px 0 16px 0;
 }
